@@ -1,6 +1,6 @@
 # Immutability
 
-Immutability is a simple package that is used in your Eloquent models to enforce attribute immutability.  Immutable attributes may be set, and changed once, but once the model is saved, the value can not be changed.
+*repat/immutability* is a simple package based on *davidmpeace/immutability* that is used in your Eloquent models to enforce attribute immutability.  Immutable attributes may be only set if they are `!= null`, but once the model is saved, the value can not be changed.
 
 ## License
 
@@ -10,7 +10,7 @@ Immutability is open-sourced software licensed under the [MIT license](http://op
 
 To get started with Immutability, add to your `composer.json` file as a dependency:
 
-    composer require davidmpeace/immutability
+`$ composer require davidmpeace/immutability`
 
 ### Basic Usage
 

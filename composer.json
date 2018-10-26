@@ -1,12 +1,18 @@
 {
-    "name": "davidmpeace/immutability",
-    "description": "A simple Laravel package that allows you to enforce immutable attributes on Eloquent models.",
-    "keywords": ["laravel","eloquent","immutable","attributes","orm","automatic"],
+    "name": "repat/immutability",
+    "description": "A simple Laravel package based on davidmpeace/immutability that allows you to enforce immutable attributes on Eloquent models.",
+    "keywords": ["laravel","eloquent","immutable","attributes","orm","automatic","immutability","davidmpeace","repat"],
     "license": "MIT",
+    "minimum-stability": "stable",
+    "version":"0.3",
     "authors": [
         {
             "name": "David Peace",
             "email": "peaceman@gmail.com"
+        },
+        {
+            "name": "repat",
+            "email": "repat@repat.de"
         }
     ],
     "require": {
